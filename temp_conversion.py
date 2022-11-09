@@ -18,7 +18,10 @@ def convert_0_to_celsius():
 def convert_34_2_to_celsius():
     # Convert a temperature of 34.2 degrees fahrenheit to celsius
     # Do this one all in one print statement without saving any variables
+   
+   
     print((34.2-32)*5/9)
+
 '''
 Now, can you convert back?
 '''
@@ -29,7 +32,23 @@ def convert_5_to_fahrenheit():
 
 
 
+
 def hotter_temp():
     # What is hotter, a temperature of 30.2 degrees celsius, or a temperature of 85.1 degrees fahrenheit?
     # Print out the hotter temp: '30.2 degrees celsius' or '85.1 degrees fahrenheit', respectively
     print('30.2 degrees celsius')
+
+
+def convert_to_celsius(temp):
+    temp_convert = (temp -32)*5/9
+    return temp-convert
+
+convert_to_celsius
+
+
+def convert_to_fahrenheit(temp):
+    temp_convert = ((temp * 9/5))+32
+    return temp_convert
+
+convert_to_fahrenheit
+
