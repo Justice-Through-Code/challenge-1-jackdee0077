@@ -41,14 +41,14 @@ def hotter_temp():
 
 def convert_to_celsius(temp):
     temp_convert = (temp -32)*5/9
-    return temp-convert
+    return temp_convert
 
-convert_to_celsius
+convert_to_celsius()
 
 
 def convert_to_fahrenheit(temp):
     temp_convert = ((temp * 9/5))+32
     return temp_convert
 
-convert_to_fahrenheit
+convert_to_fahrenheit()
 
